@@ -1,0 +1,258 @@
+
+
+/* page about_us_body */
+.container_about_us {
+    height: auto;
+}
+
+.container_about_us-item {
+    padding: 155px 0 170px 0;
+}
+
+.container_about_us_item_list-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    word-break: break-word;
+}
+
+.container_about_us_item_list-text {
+    margin-top: 15px;
+    line-height: 28px;
+    margin-top: 15px;
+    word-break: break-word;
+    font-size: 18px;
+
+}
+
+.container_about_us_item_list-text_content {
+    margin: 36px 0 37px 0;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 1.714285714285714em;
+    font-weight: 400;
+    color: #505050;
+    word-break: break-word;
+}
+.container_about_us_item_list-readmore {
+    padding: 14px 42px;
+    background-color: #3fd0d4;
+    border: 1px solid transparent;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+.container_about_us-item1 {
+    padding: 110px 0 170px 0;
+
+}
+.container_about_us_item-img {
+    width: 100%;
+    height: 100%;
+
+}
+.container_about_us_item-img img{
+    width: 418px;
+    height: 418px;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+.meter {
+    box-sizing: content-box;
+    height: 24px; /* Can be anything */
+    position: relative;
+    margin: 20px 0 20px 0; /* Just for demo spacing */
+    background: #f0ede8;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .meter > span {
+    display: block;
+    height: 100%;
+    background-color:#3fd0d4
+    ;
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  .meter > span:after,
+  .animate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: moveaction 10s linear infinite;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  @keyframes moveaction {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: 50px 50px;
+    }
+}
+
+  .animate > span:after {
+    display: none;
+  }
+
+  .popular_tours-img img{
+    width: 100%;
+  }
+
+.popular_tours-percentage{
+    width: 100%;
+    height: auto;
+}
+.popular_tours-percentage .popular_tours-progress-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.popular_tours-progress-bar .popular_tours-progress-bar-title{
+    font-size: 14px;
+    line-height: 1.428571428571429em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.popular_tours-progress-bar span{
+    font-size: 14px;
+    line-height: 1.428571428571429em;
+    font-weight: 600;
+}
+.famous_list{
+    padding: 0 24px;
+}
+.famous_list .famous_list_tour-item{
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+
+}
+.famous_list_tour-item .famous_list_tour-link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+
+}
+.famous_list_tour-item .famous_list_tour-img{
+    width: 100%;
+    height: 232px;
+    z-index: 1;
+    object-fit: cover;
+}
+.famous_list_tour-item:hover .famous_list_tour-img{
+    transition: transform 0.5s;
+    transform: scale(1.02);
+}
+.famous_list_tour_price-tour{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.famous_list_tour_price-discount{
+    text-decoration: line-through;
+
+}
+.famous_list_tour-item .famous_list_tour-information{
+    position: absolute;
+    bottom: 10px;
+    padding: 0 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+
+.container_footer_about_us{
+    width: 100%;
+    height: 140px;
+    background-color: #3fd0d4;
+}
+.container_footer_about_us_item-text{
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.272727272727273em;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    line-height: 140px;
+}
+
+.container_footer_about_us_item-button{
+    width: 213px;
+    height: 63px;
+    margin: 40px 6px 0 215px;
+    background-color: #fff;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+.container_footer_about_us_item-button:hover{
+    background-color:rgb(82, 82, 197) ;
+
+}
+.container_footer_about_us_item-button:hover .container_footer_about_us_item-link{
+    color: rgb(255, 255, 255);
+}
+.container_footer_about_us_item-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600 ;
+}
+.container_footer_about_us_item-link p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.video-review-about {
+    background: url(/frontend/img/videoabout_us.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    min-height: 200px;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+.main-about_us{
+    margin: 0px 12px;
+}

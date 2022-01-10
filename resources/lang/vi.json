@@ -1,0 +1,39 @@
+{
+    "Success.": "Thành công.",
+    "Error.": "Lỗi.",
+    "Warning.": "Cảnh báo.",
+    "Done!": "Xong!",
+    "Sorry, something went wrong!": "Xin lỗi, có gì đó không ổn!",
+    "Oops! An error has occurred.": "Đã xảy ra lỗi!",
+    "Please try again.": "Vui lòng thử lại.",
+
+    "Welcome to website, :Name !": "Chào mừng :Name đến với trang web !",
+    "Welcome back.": "Chào mừng bạn quay trở lại.",
+    "Login successful.": "Đăng nhập thành công.",
+    "Login failed.": "Đăng nhập thất bại.",
+    "Register successfully.": "Đăng ký thành công.",
+    "Register failed.": "Đăng ký thất bại.",
+    "Congratulations on your login success with :Provider.": "Chúc mừng bạn đã đăng nhập với :Provider thành công .",
+    "You are not logged in yet.": "Bạn chưa đăng nhập.",
+    "You are logged out.": "Bạn đã đăng xuất.",
+
+    "You have not entered your password.": "Bạn chưa nhập mật khẩu của mình.",
+    "Password at least :min characters.": "Mật khẩu ít nhất :min ký tự.",
+    "Incorrect password.": "Mật khẩu không chính xác.",
+    "Re-enter new incorrect password.": "Nhập lại mật khẩu mới chưa chính xác.",
+    "Change password successfully.": "Thay đổi mật khẩu thành công.",
+
+    "You have not entered your email.": "Bạn chưa nhập email của mình.",
+
+    "Save successfully.": "Lưu thành công.",
+    "Save failed.": "Lưu thất bại.",
+    "Add successfully.": "Thêm thành công.",
+    "Add failed.": "Thêm thất bại.",
+    "Update successfully.": "Cập nhật thành công.",
+    "Update failed.": "Cập nhật thất bại.",
+    "Delete successfully.": "Xóa thành công.",
+    "Delete failed.": "Xóa thất bại.",
+
+    "Booking successfully.": "Đặt chỗ thành công.",
+    "Booking failed.": "Đặt chỗ thất bại."
+}

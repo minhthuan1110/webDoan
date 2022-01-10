@@ -1,0 +1,234 @@
+.coler-page_header{
+    background-color:2a688b;
+}
+
+.theme-img{
+    height:100%;
+    background-image:url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.main-content{
+    height:60%;
+    width: 100%;
+}
+.item-box{
+    margin-top: 5.09%;
+    margin-bottom: 6.5%;
+}
+
+.item-box:hover .small-box{
+    transition: all 0.5s;
+     margin-top:-12px;
+}
+.link-other{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium';
+    align-items:flex-end;
+}
+
+/*  */
+.form-title{
+    margin-top:2%;
+    margin-left:5%;
+    width:70%;
+    height:95%;
+    background-color:rgba(0, 0, 0, 0.089);
+}
+.text-title{
+    padding: 40px 0 0 40px;
+    font-size:40px;
+    font-weight:800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.274);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+.text-title_content{
+    font-size:15px;
+    padding-left: 40px;
+    color: #fff;
+}
+.text-right.other_link-FB{
+    width: 30px;
+    margin-bottom: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: all 1s;
+}
+.link-other{
+    margin-top: 6%;
+}
+.text-right.other_link-FB:hover{
+    box-shadow: 0px 2px 2px 1px rgba(251, 251, 251, 0.109);
+    width: 120%;
+
+    background-image:url("../img/orther/facebook.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+.input-group{
+    position: relative;
+}
+.show-img_add{
+    height:200px;
+    width: 100%;
+    border:1px solid #ced4da;
+    border-radius:5px;
+    text-align: center;
+
+}
+
+.img-tour_add{
+    position:absolute;
+    border:1px solid #ced4da;
+    height:210px;
+}
+.img-tour_add.disabled{
+    display: none;
+}
+.icon-add_tour.disabled{
+    display: none;
+}
+.icon-add_tour{
+    line-height: 200px;
+    font-size: 40px;
+    opacity: 0.1;
+}
+
+.show-img_add:hover .icon-add_tour{
+    opacity: 0.5;
+}
+.show-img_add{
+    width: 100%;
+    height: 210px;
+}
+.img-tour_link{
+    font-size:12px;
+    font-weight:200;
+
+}
+.select2-selection.select2-selection--multiple{
+    height:80px;
+}
+
+.img-tour_add-show{
+    height:100%;
+    width: inherit;
+    object-fit:cover;
+
+
+}
+#show_edit-img{
+    opacity:1;
+    width: 100%;
+    height: 201px;
+}
+
+.other_link-FB a img{
+    box-shadow: 0px 1px 2px 1px rgba(233, 230, 230, 0.466);
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+@media only screen and (max-width:63.9375em){
+    .text-title_content{
+        display: none;
+    }
+    .text-title{
+        display: none;
+    }
+    .link-other{
+        display: none;
+    }
+    .theme-img{
+        height:100%;
+        background-image:url("../img/1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: none;
+    }
+}
+.img-admin{
+   margin-left: 50%;
+   transform: translateX(-50%);
+}
+.right.badge.badge-danger.none{
+    display: none;
+}
+.new-booking{
+    /* color: red; */
+    animation: colers ease-in-out 1s infinite;
+}
+@keyframes colers{
+    0%{
+        color:red;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+.show-img_add.edit-img_admin::before{
+    content: "Thay đổi";
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    transform: translateX(-50%);
+    background-color:blue;
+    bottom: -33px;
+    border-bottom-left-radius: 500px ;
+    border-bottom-right-radius: 500px ;
+    z-index: 1;
+    color:#fff;
+}
+.change-text_input{
+    position: absolute;
+    line-height:40px;
+    right: 0;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+/* upload Image */
+#list-image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.list-image__wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.list-image__wrap img {
+    width: 200px;
+    height: 150px;
+    max-height: 200px;
+    object-fit: cover;
+}

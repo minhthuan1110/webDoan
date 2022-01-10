@@ -1,0 +1,48 @@
+
+/* mobile */
+@media only screen and (max-width:46.1875em){
+
+
+}
+
+/*  tablet */
+@media only screen and (min-width:46.25em)and (max-width:63.9375em) {
+
+}
+/* Tablet and Mobile  */
+@media only screen and (max-width:63.9375em){
+    #map{
+        width: 100%;
+        height: 250px;
+    }
+    .feedback_content-information{
+        width: 100%;
+        margin:0px;
+    }
+    .feedback_information-email{
+        padding: 12px 0;
+    }
+    .feedback_information_email-icon1::after{
+        left: 11px;
+    }
+    .feedback_information_email-icon::after{
+        left: 11px;
+    }
+
+}
+
+/* PC */
+@media screen and (min-width:1024px) {
+    .contact_us_item-list{
+        padding-right: 60px;
+    }
+    .container_contact_us_item-img{
+        margin-top: 45px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+#myAccount .feedback_content-submit {
+    height: 50px;
+    width: 220px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f59b9b;
+    color: var(--white-color);
+    transition: opacity .2s;
+}
+
+#myAccount .feedback_content-submit:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#myAccount .feedback_information-email-card {
+    margin-top: 20px;
+}
+#myAccount .container-feedback
+{
+    margin-top: 0;
+    border-radius: 5px;
+}
+#myAccount .side-bar {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #f59b9b;
+    border-radius: 5px;
+}
+#myAccount .side-bar__wrap {
+    padding: 20px 10px;
+}
+#myAccount .side-bar__item {
+    margin-bottom: 2px;
+    padding: 6px;
+    border-radius: 8px;
+    margin: 8px 2px;
+    background-color: rgb(232 142 142 / 60%);
+    cursor: pointer;
+}
+#myAccount .side-bar__item.active {
+    border-bottom: 1px solid var(--white-color);
+}
+#myAccount .side-bar__item a{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--white-color);
+    text-decoration: none;
+}
+#myAccount  .feedback_input-card {
+    border-radius: 15px;
+}
+#myAccount .header {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#myAccount .header-avatar {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    left: 5%;
+    transform: translateY(-50%);
+    transition: all .2s;
+}
+#myAccount .header-avatar:hover{
+    opacity: .8;
+}
+.header-avatar__img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #f59b9b;
+    border: 2px solid var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-avatar__img img {
+    max-width: 100%;
+    height: auto;
+}
+.header-avatar__action {
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #e4e4e4;
+    text-align: center;
+}
+.header-avatar__action a {
+    font-size: 2.2rem;
+    font-family: inherit;
+    color: #333;
+}
+.header-avatar__action a i {
+    line-height: 35px;
+}
+#myAccount .header-background {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+    border-top-right-radius: 30px;
+}
+#myAccount .header-background__img{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-background__img img {
+    width: 100%;
+}
+.header-background__action {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    background: var(--white-color);
+    border-radius: 5px;
+    transition: color .2s;
+}
+.header-background__action:hover {
+    opacity: .8;
+}
+.header-background__action  a {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 600;
+    display: block;
+}
+.header-background__action  a i {
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+#myAccount .table {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#myAccount .table th {
+    padding: 0 10px;
+}
+
+#myAccount .table td {
+    border-left: 2px solid #fff;
+    padding: 0 6px;
+    border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,36 @@
+/* Mobile */
+@media only screen and (max-width:46.1875em){
+    #booking .feedback_information-email-card .icon_add-card {
+        font-size: 10px;
+        top: 0;
+        padding: 12px 5px;
+    }
+    #booking .payments .payment-infomation {
+        padding: 10px 5px;
+    }
+    .discount-code__input {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ /*  Tablet */
+@media only screen and (min-width:46.25em)and (max-width:63.9375em) {
+#booking .booking-wrap-info .booking-name-tour {
+    font-size: 1.6rem;
+}
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em) {
+    .booking-detail-info {
+        flex-direction: column;
+    }
+    #booking {
+        padding: 0 10px;
+    }
+    #booking    .feedback_list-items {
+        padding: 50px 5px;
+    }
+}

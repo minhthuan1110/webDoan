@@ -1,0 +1,39 @@
+/**
+* Mobile
+*/
+@media only screen and (max-width:46.1875em){
+    #myAccount .header {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    #myAccount .header-background__img {
+        height: 200px;
+    }
+    .header-background__action{
+        right: 0;
+        bottom: 0;
+        box-shadow: 0 0 9px #333;
+    }
+    #myAccount .side-bar {
+        height: auto;
+    }
+    #myAccount .side-bar__wrap{
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+/**
+* Tablet
+*/
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    #myAccount .header-background__img {
+        height: 250px;
+        box-shadow: 5px;
+    }
+}
+/**
+* Desktop
+*/
+@media only screen and (min-width: 1024px) {
+
+}

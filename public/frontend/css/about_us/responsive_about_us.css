@@ -1,0 +1,103 @@
+
+/* mobile */
+@media only screen and (max-width:46.1875em){
+    .container_about_us_item-img img{
+        width: 100%;
+        height: 125%;
+    }
+    .responsive-iframe{
+        width: 310px;
+        height: 176px;
+
+    }
+    .container_popular_tours{
+        padding: 0px 30px;
+    }
+    .famous_list_tour-item {
+        padding: 0px 30px;
+    }
+    .famous_list_tour-item .famous_list_tour-information {
+        padding: 0 75px;
+    }
+}
+
+    /*  tablet */
+    @media only screen and (min-width:46.25em)and (max-width:63.9375em) {
+        .container_about_us_item-img{
+            width: 100%;
+        }
+        .responsive-iframe{
+            width: 602px;
+            height: 340px;
+        }
+       
+    
+
+    }
+    /* Tablet and Mobile  */
+    @media only screen and (max-width:63.9375em){
+
+        .container_about_us-item {
+            padding-bottom: 20px;
+        }
+        .container_about_us-item1 {
+            padding: 40px 0 20px 0;
+        }
+        .container_video_about_us{
+            margin-top: 20px;
+        }
+        .famous_list{
+            padding: 0;
+        }
+        .container_footer_about_us-list_item{
+            display: flex;
+            flex-direction: column;
+        }
+        .container_footer_about_us{
+            width: 100%;
+            height: auto;
+            background-color: #3fd0d4;
+        }
+        .container_footer_about_us_item-text{
+            line-height: 40px;
+            padding: 0 20px;
+        }
+        .container_footer_about_us_item-button{
+            margin:25px ;
+        }
+        .video-review-about {
+            margin-bottom: 82px;
+            height: 579px;
+            margin-top: 117px;
+        }
+    }
+    /* PC */
+    @media screen and (min-width:1024px) {
+        .container_about_us_item-img {
+            padding-left: 100px;
+
+        }
+        .container_popular_tours{
+            padding-top: 200px;
+            padding: 0px 30px;
+        }
+        .popular_tours-img img{
+            width: 100%;
+            padding: 0px 128px 120px 128px
+          }
+
+        .container_footer_about_us-list_item{
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            justify-content: center;
+        }
+        .container_famous{
+          padding-bottom: 40px;
+        }
+        .responsive-iframe{
+            width: 825px;
+            height: 463px;
+        }
+
+    }

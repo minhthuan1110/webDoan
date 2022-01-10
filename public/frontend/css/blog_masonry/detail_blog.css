@@ -1,0 +1,105 @@
+.search-ordering-list.translate{
+    display: flex;
+    justify-content:center;
+    left: 0px;
+    width:100%;
+}
+.search-ordering-list.translate.detail-blog{ 
+      position: fixed;
+      display: flex;
+      justify-content:center;
+      top: 155px;
+      left: 12px;
+      width: 100%;
+      transition: all 0.6s linear;
+      box-shadow: 0 0 12px 5px rgba(255, 255, 255, 0.5);
+}
+.search-ordering-list.translate .title-detail_blog,
+.search-ordering-list.detail-blog .title-detail_blog{
+    height:100px;
+    padding-top: 5px;
+    line-height:100px;
+    font-size:35px;
+    text-decoration: underline var(--primary-color) ;
+    text-align:center;
+    
+}
+
+.container_list-product.detail-blog{
+   margin-top: 40px;
+}
+.container_list-product.detail-blog img {
+    width:100%;
+    object-fit: contain;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+.container_list-product.detail-blog p {
+    width:100%;
+    word-wrap: break-word;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.container_list-product.detail-blog span {
+    width:100%;
+    word-wrap: break-word;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.comtent-show_log{
+    display: flex;
+    justify-content:space-between;
+}
+.comtent-show_log .content-comment__wrap{
+    font-size: 18px;
+}
+.content-comment__wrap a:hover  i{
+    color:var(--primary-color);
+}
+.feedback_list-items .about-me_img{
+    width:100%;
+    object-fit: contain;
+    object-fit: cover;
+}
+.feedback_list-items .text-about_me{
+    font-size: 14px;
+    color:var(--white-color);
+    text-align: center;
+}
+.title-text-blog_new{
+    font-size:18px;
+}
+.blogmasonry_item-title__row{
+    display: flex;
+}
+.blogmasonry_item-title__row .blogmasonry_content-detail{
+    width:60%;
+    margin-top: 10px;
+}
+.blogmasonry_item-title_link{
+    font-size: 16px;
+}
+.blogmasonry-title_list-content-blog{
+    width: 100%;
+    height: 50px;
+}
+.blogmasonry-title_list-content-blog .blogmasonry_content-text{
+    font-size: 13px;
+    width: inherit;
+    height:inherit;
+    overflow: hidden;
+    white-space: nowrap;    
+   text-overflow: ellipsis;
+   margin-top: -14px;
+}
+.blogmasonry-title_item.blog{
+    margin-top: -35px;
+    padding:5px 20px;
+}
+.container-blogmasonry-title_item.detail_blog{
+    border-bottom:1px solid rgb(97, 81, 81);
+  
+}
